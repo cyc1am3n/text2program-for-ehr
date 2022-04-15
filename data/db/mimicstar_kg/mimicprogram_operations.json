@@ -1,0 +1,18 @@
+{"name": "gen_entSet_down", "arg_types": ["entSet", "rel_ent"], "out_type": "entSet"}
+    {"name": "gen_entSet_up", "arg_types": ["rel_ent", "entSet"], "out_type": "entSet"}
+    {"name": "gen_litSet", "arg_types": ["entSet", "rel_lit"], "out_type": "litSet"}
+    {"name": "gen_entSet_equal", "arg_types": ["rel_lit", "value"], "out_type": "entSet"}
+    {"name": "gen_entSet_atleast", "arg_types": ["rel_lit", "value"], "out_type": "entSet"}
+    {"name": "gen_entSet_less", "arg_types": ["rel_lit", "value"], "out_type": "entSet"}
+    {"name": "gen_entSet_atmost", "arg_types": ["rel_lit", "value"], "out_type": "entSet"}
+    {"name": "gen_entSet_more", "arg_types": ["rel_lit", "value"], "out_type": "entSet"}
+    {"name": "count_litSet", "arg_types": ["litSet", "None"], "out_type":  "value"}
+    {"name": "count_entSet", "arg_types": ["entSet", "None"], "out_type":  "value"}
+    {"name": "maximum_litSet", "arg_types": ["litSet", "None"], "out_type":  "value"}
+    {"name": "minimum_litSet", "arg_types": ["litSet", "None"], "out_type":  "value"}
+    {"name": "average_litSet", "arg_types": ["litSet", "None"], "out_type":  "value"}
+    {"name": "intersect_entSets", "arg_types": ["entSet", "entSet"], "out_type":  "entSet"}
+    {"name": "intersect_litSets", "arg_types": ["litSet", "litSet"], "out_type":  "litSet"}
+    {"name": "union_entSets", "arg_types": ["entSet", "entSet"], "out_type":  "entSet"}
+    {"name": "union_litSets", "arg_types": ["litSet", "litSet"], "out_type":  "litSet"}
+    {"name": "concat_litSets", "arg_types": ["litSet", "litSet"], "out_type":  "list"}
