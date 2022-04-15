@@ -716,7 +716,7 @@ def main():
             else:
                 high.append(0)
                 mild_and_high.append(0)
-    breakpoint()
+    
     data_uncertainty = results['data_uncertainty']
     model_uncertainty = results['model_uncertainty']
     total_uncertainty = results['total_uncertainty']

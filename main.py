@@ -44,7 +44,7 @@ def add_fit_args(parser):
 
 if __name__ == "__main__":
     args = add_fit_args(argparse.ArgumentParser())
-    import pdb; pdb.set_trace()
+
     init_config = CONFIG_DICT[args.model]
     init_config.update(vars(args))
     init_config['train_setting'] = 'finetune' if (args.test == False and args.ensemble_test == False) else 'decode'
